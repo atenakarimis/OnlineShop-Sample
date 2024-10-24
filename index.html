@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="استایلت رو به دیجی استایل بسپر">
+    <meta name="robots" content="follow,index">
+    <meta name="keywords" content="استایل,لباس , کفش, اکسسوری, بهداشتی, آرایشی, پوست, مو">
+    <title>DigiStyle</title>
+    <link rel="icon" href="./Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/index.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-top">
+            <div class="search_bar">
+                <i><input  type="text" placeholder="جستجوی محصولات از237برند"><img src="Images/search.png"  alt="" width="20px"></i>
+            </div>
+            <div class="logo">
+                <h3><a id="headlogo" href="#">DIGISTYLE</a></h3>
+            </div>
+            <div class="icons">
+                <a href="#" title="مشاهده حساب کاربری">وارد شوید</a>
+                <i><img src="Images/shopping-cart.png" alt="" width="25px"></i>
+            </div>
+        </div>
+    </div>
+     <!-- main content -->
+     <!-- <input type="checkbox" name="" id="nav-toggle"> -->
+     <div class="main-content">
+        <nav class="navbar navbar-expand-md" id="navbar-color">
+           <div class="container">
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="#">کارت هدیه</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">برندها</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">خانه طلا</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">خانه ساعت</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:#fff;">حراج استایل</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ورزش و سفر</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">زیبایی و سلامت</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">بچگانه</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">مردانه</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">زنانه</a>
+                </li>
+              </ul>
+              <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </label>
+            </div>
+           </div> 
+          </nav>
+   <!-- slider -->
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="Images/img1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="Images/img2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="Images/img3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="Images/img4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="Images/img5.jpg" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+     <div class="items">
+        <ul class="style-items">
+            <li>زیبایی و سلامت</li>
+            <li>بچگانه</li>
+            <li id="style_active">زنانه</li>
+            <li>مردانه</li>
+        </ul>
+     </div>   
+
+
+   <!-- gallery -->
+   <div class="big-shop" id="shop">
+    <div class="shop-flex">
+        <div class="shop-one">
+
+            <div class="image-one">
+                <img src="Images/accessorimardane.jpg" alt="">
+                <div class="overlay">
+                    <div class="txt">
+                        <h3> اکسسوری مردانه</h3>
+                        <section>
+                            <span> ساعت و عینک</span> / مردانه
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-one">
+                <img src="Images/atr2.jpg" alt="">
+                <div class="overlay">
+                    <div class="txt">
+                        <h3>  ادکلن</h3>
+                        <section>
+                            <span>عطر و ادکلن</span>  
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop-one">
+
+            <div class="image-one">
+                <img src="Images/varzeshizanane.jpg" alt="" >
+                <div class="overlay">
+                    <div class="txt">
+                        <h3>لباس ورزشی</h3>
+                        <section>
+                            <span>نیمتنه و شلوارک</span> / زنانه
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-one">
+                <img src="Images/bachegane.jpg" alt="">
+                <div class="overlay">
+                    <div class="txt">
+                        <h3>ست بچگانه</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="image-one">
+                <img src="Images/lebaszanane.jpg" alt="">
+                <div class="overlay">
+                    <div class="txt">
+                        <h3>لباس زنانه</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop-two">
+            <img src="Images/poost.jpg" alt="">
+            <div class="overlay">
+                <div class="txt">
+                    <h3>مراقبت پوست</h3>
+                    <section>
+                        <span>لوازم بهداشتی</span>/محصولات پوستی
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- card silder -->
+<div class="card_body">
+    <div class="container2">
+        <input type="radio" name="dot" id="one" checked>
+        <input type="radio" name="dot" id="two">
+        <div class="main-card">
+            <div class="cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="Images/رنگ مو.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="name">رنگ مو دوشس سری خاکستری شماره 8.11 حجم 125 میلی لیتر</div>
+                            <div class="job">رنگ بلوند خاکستری روشن</div>
+                            <div class="description">۷۵,۰۰۰تومان</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="Images/کرم ضد آفتاب.jpg" alt="Olivia Evans">
+                        </div>
+                        <div class="details">
+                            <div class="name">فلوئید ضد آفتاب بدون رنگ مای SPF50 مدل Hyaluronic Acid محافظ UVA ،UVB</div>
+                            <div class="job">ضد آب، ضد جوش، ضد پیری، مناسب انواع پوست</div>
+                            <div class="description">۲۳۱,۵۰۰تومان</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="Images/دستکش ورزشی.jpg" alt="Noah Johnson">
+                        </div>
+                        <div class="details">
+                            <div class="name">دستکش ورزشی مدل گلد </div>
+                            <div class="job">واته/اکسسوری ورزشی زنانه و مردانه واته</div><br>
+                            <div class="description">۷۰,۰۰۰تومان</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="Images/ماساژور.jpg" alt="Ava Williams">
+                        </div>
+                        <div class="details">
+                            <div class="name">ماساژور دی.آر.اس مدل درمارولر سایز 0.5</div>
+                            <div class="job">دی آر اس/ماساژور برقی دی آر اس</div>
+                            <div class="description">۱۰۸,۰۰۰تومان</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="Images/کرم آبرسان.jpg" alt="Ella Martinez">
+                        </div>
+                        <div class="details">
+                            <div class="name">کرم آبرسان کامان سری واتربمب مدل هیالورونیک اسید حجم 500 میلی لیتر</div>
+                            <div class="description">۱۹۷,۰۰۰تومان</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="Images/کفش.jpg" alt="James Robinson">
+                        </div>
+                        <div class="details">
+                            <div class="name">کفش مردانه باینت</div>
+                            <div class="job">کفش ورزشی سایز 38-44</div>
+                            <div class="description">۳۹۹,۰۰۰تومان</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <img class="img-side" src="Images/0e30c462.svg" alt=""> -->
+        </div>
+    
+        <div class="button">
+            <label class="one" for="one"></label>
+            <label class="two" for="two"></label>
+        </div>
+    
+        <div class="arrow left" onclick="document.getElementById('one').checked = true; document.getElementById('two').checked = false;">&#10094;</div>
+        <div class="arrow right" onclick="document.getElementById('two').checked = true; document.getElementById('one').checked = false;">&#10095;</div>
+    
+    </div>
+    <img class="beside" src="Images/0e30c462.svg" alt="" >
+    <div>
+    
+    </div>
+</div>
+
+<div class="head">
+    <h2>محبوب ترین برندها</h2>
+</div>
+ <div class="color">
+    <span></span>
+ </div>
+<!-- CARDS -->
+ <div class="body">
+    
+        <div class="box">
+            <div class="slide-img">
+                <img src="Images/جوراب.jpg" alt="">
+            <div class="overlay-2">
+                <a href="#" class="buy-btn">افزودن به سبد خرید</a>
+            </div>
+            </div>
+            <div class="detail-box">
+            <div class="type">  
+                <a href="">جوراب کالج زنانه اسمارا</a>
+                <span>مدل J015</span>
+            </div>
+            <a href="#" class="price">۸۵,۰۰۰تومان</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="slide-img">
+                <img src="Images/شلوار.jpg" alt="">
+            <div class="overlay-2">
+                <a href="#" class="buy-btn">افزودن به سبد خرید</a>
+            </div>
+            </div>
+            <div class="detail-box">
+            <div class="type">  
+                <a href="">شلوار جین زنانه اسمارا مدل سوپر اسکینی فیت</a>
+            </div>
+            <a href="#" class="price">۳۹۰,۲۶۰تومان</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="slide-img">
+                <img src="Images/شومیز.jpg" alt="">
+            <div class="overlay-2">
+                <a href="#" class="buy-btn">افزودن به سبد خرید</a>
+            </div>
+            </div>
+            <div class="detail-box">
+            <div class="type">  
+                <a href="">شومیز آستین بلند زنانه </a>
+                <span>مدل 8752230</span>
+            </div>
+            <a href="#" class="price" >۳۷۵,۰۰۰ تومان</a>
+         
+            </div>
+        </div>
+
+        
+        <div class="body_right">
+            <img src="Images/esmara.png" alt="">
+            <h3><svg style="width: 30px; height:20px;" styenable-background="new 0 0 32 32" id="Слой_1" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M31.106,15H3.278l8.325-8.293  c0.391-0.391,0.391-1.024,0-1.414c-0.391-0.391-1.024-0.391-1.414,0l-9.9,9.899c-0.385,0.385-0.385,1.029,0,1.414l9.9,9.9  c0.391,0.391,1.024,0.391,1.414,0c0.391-0.391,0.391-1.024,0-1.414L3.278,17h27.828c0.552,0,1-0.448,1-1  C32.106,15.448,31.658,15,31.106,15z" fill="#121313" fill-rule="evenodd" id="Arrow_Back"></path><g></g><g></g><g></g><g></g><g></g><g></g></svg>مشاهده همه محصولات</h3>
+         </div>
+ </div>
+ 
+ <div class="color">
+    <span></span>
+ </div>
+ <div class="body-2">
+    <div class="body_right">
+        <img src="Images/نایس لوگو.png" alt="" style="margin-left: 60px;">
+        <h3><svg style="width: 30px; height:20px;" styenable-background="new 0 0 32 32" id="Слой_1" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M31.106,15H3.278l8.325-8.293  c0.391-0.391,0.391-1.024,0-1.414c-0.391-0.391-1.024-0.391-1.414,0l-9.9,9.899c-0.385,0.385-0.385,1.029,0,1.414l9.9,9.9  c0.391,0.391,1.024,0.391,1.414,0c0.391-0.391,0.391-1.024,0-1.414L3.278,17h27.828c0.552,0,1-0.448,1-1  C32.106,15.448,31.658,15,31.106,15z" fill="#121313" fill-rule="evenodd" id="Arrow_Back"></path><g></g><g></g><g></g><g></g><g></g><g></g></svg>مشاهده همه محصولات</h3>
+     </div>
+    <div class="box">
+        <div class="slide-img">
+            <img src="Images/عطر جیبی.jpg" alt="">
+        <div class="overlay-2">
+            <a href="#" class="buy-btn">افزودن به سبد خرید</a>
+        </div>
+        </div>
+        <div class="detail-box">
+        <div class="type">  
+            <a href="">عطر جیبی مردانه نایس  </a>
+            <span>دل Molecule حجم 35 میلی لیتر</span>
+        </div>
+        <a href="#" class="price">۱۲۰,۰۰۰تومان</a>
+     
+        </div>
+    </div>
+    <div class="box">
+        <div class="slide-img">
+            <img src="Images/رول نایس.jpg" alt="">
+        <div class="overlay-2">
+            <a href="#" class="buy-btn">افزودن به سبد خرید</a>
+        </div>
+        </div>
+        <div class="detail-box">
+        <div class="type">  
+            <a href="">رول ضد تعریق مردانه نایس</a>
+            <span>مدل Silver Scent حجم 60 میلی لیتر</span>
+        </div>
+        <a href="#" class="price">۶۰,۱۰۰تومان</a>
+     
+        </div>
+    </div>
+    <div class="box">
+        <div class="slide-img">
+            <img src="Images/رول نایس پاپت.jpg" alt="">
+        <div class="overlay-2">
+            <a href="#" class="buy-btn">افزودن به سبد خرید</a>
+        </div>
+        </div>
+        <div class="detail-box">
+        <div class="type">  
+            <a href="">رول ضد تعریق مردانه نایس پاپت </a>
+            <span>مدل Dior حجم 60 میلی لیتر</span>
+        </div>
+        <a href="#" class="price" >۵۹,۸۰۰ تومان</a>
+     
+        </div>
+    </div>
+
+    
+    
+</div>
+
+<!-- slides -->
+<div class="head">
+    <h2 style="display: flex; margin-left: 85%; margin-top: 200px;">زیبایی و سلامت</h2>
+</div>
+<div class="cards">
+<div class="l-container">
+    <div class="b-game-card">
+      <div class="b-game-card__cover" style="background-image: url(Images/اصلاح\ موی\ صورت.jpg);"></div>
+    </div>
+    <div class="b-game-card">
+      <div class="b-game-card__cover" style="background-image: url(Images/لوازم\ آرایش\ صورت.jpg);"></div>
+    </div>
+    <div class="b-game-card">
+      <div class="b-game-card__cover" style="background-image: url(Images/لوازم\ بهداشت\ مصرفی.jpg);"></div>
+    </div>
+    <div class="b-game-card">
+      <div class="b-game-card__cover" style="background-image: url(Images/مراقبت\ پوست.jpg);"></div>
+    </div>
+  </div>
+</div>
+
+<!-- blog -->
+<!--SERVICE CARDS-->
+<div class="section1">
+    <div class="title_header">
+    <h1>آخرین مطالب بلاگ دیجی استایل</h1>
+    <span class="bar"></span>
+    </div>
+    <section>
+    <div class="card">
+    <img src="./Images/کیف زنانه اسپیور.jpg" style="width:100%;" alt="">
+    <h1>بررسی کیف دستی زنانه اسپیور؛ طراحی شیک اما نه خیلی دقیق</h1>
+    <p>یکی از اکسسوری‌های پرکاربرد در استایل زنانه، کیف دستی است. کیف‌ها در عین اینکه جذابیت بیشتری به استایل ما می‌بخشند، همچنین به ما کمک می‌کنند تا بتوانیم لوازم ضروری‌ را داخل آن قرار دهیم و به راحتی دسترسی داشته باشیم.</p>
+    </div>
+    <div class="card">
+    <img src="./Images/کتانی کانورس.jpg" style="width:100%;" alt="">
+    <h1>چگونه کفش کتانی کانورس را در استایل خود ست کنیم؟</h1>
+    <p>با وجود اینکه برندهای مختلفی از کفش‌های کتانی وجود دارد اما یک برند بالاتر از همه ایستاده است و آن برند آمریکایی کانورس است. این برند آمریکایی مشهور بیش از صد سال است که پر قدرت به تولید کفش‌های کتانی مشغول است</p>
+    </div>
+    <div class="card">
+    <img src="./Images/کفش جیر.jpg" style="width:100%;" alt="">
+    <h1>انواع کفش جیر را چگونه باید تمیز کنیم؟</h1>
+    <p>چگونه کفش‌ جیر را تمیز کنیم؟ کفش‌های جیر در تمام طول سال مورد‌استفاده قرار می‌گیرند. در تابستان کفش کالج و لوفر و در زمستان بوت‌هایی که از جنس جیر هستند، طرفداران بسیاری دارند.</p>
+    </div>
+    <div class="card">
+        <img src="./Images/تاریخچه برند.jpg" style="width:100%;" alt="">
+        <h1>هر آنچه که باید درباره تاریخچه‌ی برند پرادا بدانید</h1>
+        <p>وقتی صحبت از مد لوکس ایتالیایی می‌شود، نام پرادا همیشه به ذهن افراد می‌رسد. پرادا با نوآوری و ابهام مترادف است و به‌عنوان یکی از هیجان انگیزترین برندها در صنعت مد شناخته می‌شود.</p>
+        </div>
+    </section>
+    </div>
+<!-- gallery2 -->
+<div class="bg-team" id="team">
+    <div class="team-title">
+        <!-- <section>در دیجی استایل</section> -->
+        <h2>جدیدترین های اخیر</h2>
+        <hr>
+    </div>
+    <div class="team-flex swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="team-one swiper-slide">
+                <img src="./Images/f.jpg" alt="">
+                <h4>ساعت مچی دیجیتال زنانه کاسیو</h4>
+            </div>
+            <div class="team-one swiper-slide">
+                <img src="./Images/b.jpg" alt="">
+                <h4>مانتو زنانه ریس مدل 1026012-08</h4>
+            </div>
+            <div class="team-one swiper-slide">
+                <img src="./Images/c.jpg " alt="">
+                <h4>بلوز آستین بلند زنانه ریس مدل 1026009-08</h4>
+            </div>
+            <div class="team-one swiper-slide">
+                <img src="./Images/3.jpg" alt="">
+                <h4>مانتو زنانه ریس مدل 1026012-22</h4>
+            </div>
+            <div class="team-one swiper-slide">
+                <img src="./Images/d.jpg" alt="">
+                <h4>شلوار اسلش بچگانه سون پون</h4>
+            </div>
+            <div class="team-one swiper-slide">
+                <img src="./Images/e.jpg" alt="">
+                <h4>هودی زنانه مادر مدل 709911</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- video -->
+
+<div class="bg-show">
+   
+    <div class="overlay1">
+        <div class="image">
+            <div class="bg-player">
+                <img class="player" src="Images/کارت هدیه.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- start footer section  -->
+
+<div class="bg-footer">
+    <div class="footer-flex">
+        <div class="footer1">
+            <h2>زیبایی و سلامت</h2>
+                <li><a href="#">لوازم آرایشی</a></li>
+                <li><a href="#">مراقبت پوست</a></li>
+                <li><a href="#">لوازم بهداشتی</a></li>
+                <li><a href="#">لوازم شخصی برقی</a></li>
+                <li><a href="#">عطر و ادکلن</a></li>
+                <li><a href="#">ابزار سلامت</a></li>
+        </div>
+        <div class="footer1">
+            <h2>بچگانه</h2>
+            <li><a href="#">نوزاد</a></li>
+            <li><a href="#">دخترانه</a></li>
+            <li><a href="#">پسرانه</a></li>
+        </div>
+        <div class="footer1">
+            <h2>زنانه</h2>
+            <li><a href="#">لباس زنانه</a></li>
+            <li><a href="#">کفش زنانه</a></li>
+            <li><a href="#">اکسسوری زنانه</a></li>
+            <li><a href="#">ورزشی زنانه</a></li>
+        </div>
+        <div class="footer1">
+            <h2>مردانه</h2>
+            <li><a href="#">لباس مردانه</a></li>
+            <li><a href="#">کفش مردانه</a></li>
+            <li><a href="#">اکسسوری مردانه</a></li>
+            <li><a href="#">ورزشی مردانه</a></li>
+        </div>
+    </div>
+</div>
+    <hr>
+    <div class="bg-footer">
+        <div class="footer-flex" style="width: 60%; justify-content: center; align-items: center; margin-left: 400px;">
+            <div class="footer1" >
+                <img src="./Images/تحویل سریع آسان.svg" alt="" style="margin: auto;">
+                <h2>تحویل سریع و آسان</h2>
+            </div>
+            <div class="footer1">
+                <img src="./Images/ضمانت اصل بودن کالا.svg" alt="" style="margin: auto;">
+                <h2> ضمانت بازگشت کالا</h2>
+            </div>
+            <div class="footer1">
+                <img src="./Images/شمانت بازگشت کالا.svg" alt="" style="margin: auto;">
+                <h2>ضمانت اصل بودن کالا</h2>
+            </div>
+
+        </div>
+    </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>خدمات مشتریان</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-info-circle"></i> پاسخ به پرسش‌های متداول</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i>رویه‌های بازگرداندن کالا</a></li>
+                        <li><a href="#"><i class="fas fa-shield-alt"></i> شرایط استفاده</a></li>
+                        <li><a href="#"><i class="fas fa-file-contract"></i> حریم خصوصی</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>اطلاعات دیجی‌استایل</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-laptop-code"></i> درباره دیجی‌استایل</a></li>
+                        <li><a href="#"><i class="fas fa-mobile-alt"></i>تماس با دیجی‌استایل</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i>همکاری با دیجی‌استایل</a></li>
+                        <!-- <li><a href="#"><i class="fas fa-cloud"></i> Cloud Solutions</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>ارتباط با ما</h3>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>ثبت‌نام در خبرنامه دیجی‌استایل</h4>
+                        <form>
+                            <input type="email" placeholder="Your Email" aria-label="Email for newsletter">
+                            <button type="submit">ثبت‌نام</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;Made by Atena Karimi Samadi</p>
+                <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </footer>
+
+
+</script>
+<script src="./index.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: true,
+      speed: 600,
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        991: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+   </script>
+</body>
+  
+</html>
